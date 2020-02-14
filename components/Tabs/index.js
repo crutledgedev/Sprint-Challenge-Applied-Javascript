@@ -11,9 +11,7 @@ return response.data.topics.forEach(e =>{
 })
 
 })
-.catch(error => {
-    console.log(error);
-})
+.catch(err =>(console.log(err)));
 
 
 function tabs(topics){
